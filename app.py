@@ -29,7 +29,7 @@ def predict():
     algo_value= request.form['algorithm']
   
    
-    prediction = model.forecast(steps=int_features)
+    #prediction = model.forecast(steps=int_features)
    
  
     if(algo_value=="ARIMA"):
